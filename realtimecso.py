@@ -164,3 +164,7 @@ pprint.pprint(formatted_geojson_data_dict)
 
 # file for public repo for Windows machine
 out_file_fullpath = '/Users/keump/Documents/GitHub/dataview/csotest.geojson'
+
+
+with open(out_file_fullpath, 'w') as out_file:
+   out_file.write(formatted_geojson_data_dict)
