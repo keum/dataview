@@ -1,1 +1,181 @@
-{"type": "FeatureCollection", "features": [{"geometry": {"type": "Point", "coordinates": [-122.4225, 47.57024]}, "type": "Feature", "properties": {"DSN": "051", "CSO_Status": "3", "marker-color": "#00CD00", "Name": "Alki", "CSO_TagName": "ALKI", "Location(Lon/Lat)": "-122.422 , 47.570", "Time_stamp": "2015-01-21 04:05:28 PM", "description": "No Discharge", "marker-symbol": "square", "marker-size": "small"}}, {"geometry": {"type": "Point", "coordinates": [-122.40695, 47.55944]}, "type": "Feature", "properties": {"DSN": "055", "CSO_Status": "4", "marker-color": "#0000EE", "Name": "Alaska St SW", "CSO_TagName": "ALSK", "Location(Lon/Lat)": "-122.407 , 47.559", "Time_stamp": "2015-01-21 04:05:28 PM", "description": "No Real Time Data", "marker-symbol": "square", "marker-size": "small"}}, {"geometry": {"type": "Point", "coordinates": [-122.4, 47.54028]}, "type": "Feature", "properties": {"DSN": "056", "CSO_Status": "3", "marker-color": "#00CD00", "Name": "Murray", "CSO_TagName": "MURR", "Location(Lon/Lat)": "-122.400 , 47.540", "Time_stamp": "2015-01-21 04:05:28 PM", "description": "No Discharge", "marker-symbol": "square", "marker-size": "small"}}, {"geometry": {"type": "Point", "coordinates": [-122.39639, 47.52389]}, "type": "Feature", "properties": {"DSN": "057", "CSO_Status": "3", "marker-color": "#00CD00", "Name": "Barton", "CSO_TagName": "BART", "Location(Lon/Lat)": "-122.396 , 47.524", "Time_stamp": "2015-01-21 04:05:28 PM", "description": "No Discharge", "marker-symbol": "square", "marker-size": "small"}}, {"geometry": {"type": "Point", "coordinates": [-122.31849, 47.53705]}, "type": "Feature", "properties": {"DSN": "043", "CSO_Status": "3", "marker-color": "#00CD00", "Name": "Marginal E", "CSO_TagName": "EMAR", "Location(Lon/Lat)": "-122.318 , 47.537", "Time_stamp": "2015-01-21 04:05:28 PM", "description": "No Discharge", "marker-symbol": "square", "marker-size": "small"}}, {"geometry": {"type": "Point", "coordinates": [-122.33497, 47.54353]}, "type": "Feature", "properties": {"DSN": "039", "CSO_Status": "3", "marker-color": "#00CD00", "Name": "Michigan St", "CSO_TagName": "MICH", "Location(Lon/Lat)": "-122.335 , 47.544", "Time_stamp": "2015-01-21 04:05:28 PM", "description": "No Discharge", "marker-symbol": "square", "marker-size": "small"}}, {"geometry": {"type": "Point", "coordinates": [-122.29736, 47.51194]}, "type": "Feature", "properties": {"DSN": "044a", "CSO_Status": "3", "marker-color": "#00CD00", "Name": "Norfolk St", "CSO_TagName": "NORF", "Location(Lon/Lat)": "-122.297 , 47.512", "Time_stamp": "2015-01-21 04:05:28 PM", "description": "No Discharge", "marker-symbol": "square", "marker-size": "small"}}, {"geometry": {"type": "Point", "coordinates": [-122.32264, 47.53365]}, "type": "Feature", "properties": {"DSN": "040", "CSO_Status": "3", "marker-color": "#00CD00", "Name": "8th Ave", "CSO_TagName": "8TH", "Location(Lon/Lat)": "-122.323 , 47.534", "Time_stamp": "2015-01-21 04:05:28 PM", "description": "No Discharge", "marker-symbol": "square", "marker-size": "small"}}]}
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4225,
+          47.57024
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "DSN": "051",
+        "CSO_Status": "3",
+        "marker-color": "#00CD00",
+        "Name": "Alki",
+        "CSO_TagName": "ALKI",
+        "Location(Lon/Lat)": "-122.422 , 47.570",
+        "Time_stamp": "2015-01-21 04:05:28 PM",
+        "description": "No Discharge",
+        "marker-symbol": "k",
+        "marker-size": "small"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.40695,
+          47.55944
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "DSN": "055",
+        "CSO_Status": "4",
+        "marker-color": "#0000EE",
+        "Name": "Alaska St SW",
+        "CSO_TagName": "ALSK",
+        "Location(Lon/Lat)": "-122.407 , 47.559",
+        "Time_stamp": "2015-01-21 04:05:28 PM",
+        "description": "No Real Time Data",
+        "marker-symbol": "k",
+        "marker-size": "small"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.4,
+          47.54028
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "DSN": "056",
+        "CSO_Status": "3",
+        "marker-color": "#00CD00",
+        "Name": "Murray",
+        "CSO_TagName": "MURR",
+        "Location(Lon/Lat)": "-122.400 , 47.540",
+        "Time_stamp": "2015-01-21 04:05:28 PM",
+        "description": "No Discharge",
+        "marker-symbol": "square",
+        "marker-size": "small"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.39639,
+          47.52389
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "DSN": "057",
+        "CSO_Status": "3",
+        "marker-color": "#00CD00",
+        "Name": "Barton",
+        "CSO_TagName": "BART",
+        "Location(Lon/Lat)": "-122.396 , 47.524",
+        "Time_stamp": "2015-01-21 04:05:28 PM",
+        "description": "No Discharge",
+        "marker-symbol": "s",
+        "marker-size": "small"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.31849,
+          47.53705
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "DSN": "043",
+        "CSO_Status": "3",
+        "marker-color": "#00CD00",
+        "Name": "Marginal E",
+        "CSO_TagName": "EMAR",
+        "Location(Lon/Lat)": "-122.318 , 47.537",
+        "Time_stamp": "2015-01-21 04:05:28 PM",
+        "description": "No Discharge",
+        "marker-symbol": "k",
+        "marker-size": "small"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.33497,
+          47.54353
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "DSN": "039",
+        "CSO_Status": "3",
+        "marker-color": "#00CD00",
+        "Name": "Michigan St",
+        "CSO_TagName": "MICH",
+        "Location(Lon/Lat)": "-122.335 , 47.544",
+        "Time_stamp": "2015-01-21 04:05:28 PM",
+        "description": "No Discharge",
+        "marker-symbol": "k",
+        "marker-size": "small"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.29736,
+          47.51194
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "DSN": "044a",
+        "CSO_Status": "3",
+        "marker-color": "#00CD00",
+        "Name": "Norfolk St",
+        "CSO_TagName": "NORF",
+        "Location(Lon/Lat)": "-122.297 , 47.512",
+        "Time_stamp": "2015-01-21 04:05:28 PM",
+        "description": "No Discharge",
+        "marker-symbol": "k",
+        "marker-size": "medium"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -122.32264,
+          47.53365
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "DSN": "040",
+        "CSO_Status": "3",
+        "marker-color": "#00CD00",
+        "Name": "8th Ave",
+        "CSO_TagName": "8TH",
+        "Location(Lon/Lat)": "-122.323 , 47.534",
+        "Time_stamp": "2015-01-21 04:05:28 PM",
+        "description": "No Discharge",
+        "marker-symbol": "k",
+        "marker-size": "small"
+      }
+    }
+  ]
+}
