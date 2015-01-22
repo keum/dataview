@@ -31,7 +31,7 @@
 
 var cso_points = L.geoJson(cso, {
   onEachFeature: function (feature, layer) {
-    layer.bindPopup('<div>'+feature.properties.Name+': '+feature.properties.Time_stamp+'</div>');
+    layer.bindPopup('<table><tr><td><strong>DSN</strong></td><td>'+feature.properties.DSN+'</td></tr><tr><td><strong>'+feature.properties.Name+'</strong></td><td>'+feature.properties.Time_stamp+'</td></tr></table>');
   }
 }).addTo(map);
 
