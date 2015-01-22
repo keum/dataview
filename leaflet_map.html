@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
     <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
     <script src="short_file.geojson" type="text/javascript"></script>
-    <script src="cso.geojson" type="text/javascript"></script>
+    <script src="leaflet_cso.geojson" type="text/javascript"></script>
 
     <style>
     body {
@@ -29,21 +29,11 @@
     var map = L.map('map').setView([47.599,-122.337], 13);
     L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png').addTo(map);
 
-    //var myLayer = L.geoJson(pauls_domain, {
-     
-     //onEachFeature: function (feature, layer) {
-         //layer.bindPopup('<a href="./'+feature.properties.mhname+'.html">'+feature.properties.mhname+'</a>');
-     //}
- //}).addTo(map);
-
 var cso_points = L.geoJson(cso, {
   onEachFeature: function (feature, layer) {
-    layer.bindPopup('<strong>'+feature.properties.Name+':</strong> '+feature.properties.Time_stamp);
+    layer.bindPopup('<div>'+feature.properties.Name+': '+feature.properties.Time_stamp+'</div>');
   }
 }).addTo(map);
-
-    //var marker = L.marker([47.75574,-122.31344]).bindPopup("<p><strong>North City</strong></p>").addTo(map).openPopup();
-
 
 
 </script>
