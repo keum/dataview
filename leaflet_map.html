@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+ 
+<head>
+    <meta charset="utf-8">
+
+<!-- LEAFLET -->
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="short_file.geojson" type="text/javascript"></script>
+    <script src="cso.geojson" type="text/javascript"></script>
+
+    <style>
+    body {
+      background-color: peru;
+    }
+    #map {
+      width:1000px;
+      height:550px;
+      background-color:#c0c0c0; /* just to ensure the element is there */
+    }
+    </style>
+
+</head>
+ 
+<body>
+<div id="map"></div>
+<script>
+    var map = L.map('map').setView([47.599,-122.337], 13);
+    L.tileLayer('http://{s}.tile.stamen.com/watercolor/{z}/{x}/{y}.png').addTo(map);
+
+    //var myLayer = L.geoJson(pauls_domain, {
+     
+     //onEachFeature: function (feature, layer) {
+         //layer.bindPopup('<a href="./'+feature.properties.mhname+'.html">'+feature.properties.mhname+'</a>');
+     //}
+ //}).addTo(map);
+
+var cso_points = L.geoJson(cso, {
+  onEachFeature: function (feature, layer) {
+    layer.bindPopup('<strong>'+feature.properties.Name+':</strong> '+feature.properties.Time_stamp);
+  }
+}).addTo(map);
+
+    //var marker = L.marker([47.75574,-122.31344]).bindPopup("<p><strong>North City</strong></p>").addTo(map).openPopup();
+
+
+
+</script>
+</body>
+</html>
